@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* position: fixed; */
+}
+
+.logo img {
+  max-height: 150px;
+  border-radius: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* makes it horizontal */
+  gap: 30px; /* spacing between nav items */
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+  color: red;
+}
+/* React Native section styles */
+.react-native-section {
+  background-color: #f0f8ff;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Logo image */
+.react-native-section .rn-logo {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.react-native-section .rn-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Section heading */
+.react-native-section h2 {
+  font-size: 32px;
+  color: #222;
+  font-weight: 600;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
